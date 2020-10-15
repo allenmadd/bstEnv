@@ -1,1 +1,0 @@
-# -*- coding: utf-8 -*-#import biosteam as bstfrom biosteam import main_flowsheetimport graphvizmain_flowsheet.view()##create a stream object#bst.settings.set_thermo(['Water', 'Methanol'])#feed = bst.Stream(Water=50, Methanol = 20)#feed.show()##set stream prices#feed.price=.15 #USD/kg#print(feed.cost) #USD/hr
